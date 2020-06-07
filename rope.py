@@ -6,4 +6,3 @@
 # - substring
 # - concatenation
 
-1/2
