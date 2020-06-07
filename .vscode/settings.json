@@ -5,7 +5,7 @@
   "runOnSave.commands": [
     {
       "match": ".*\\.py",
-      "command": "clear; python ${file}",
+      "command": "clear; python ${filename}",
       "runIn": "terminal"
     }
   ]
