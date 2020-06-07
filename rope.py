@@ -5,3 +5,5 @@
 # - delete
 # - substring
 # - concatenation
+
+1/0
