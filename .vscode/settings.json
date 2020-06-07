@@ -5,7 +5,7 @@
   "runOnSave.commands": [
     {
       "match": ".*\\.py",
-      "command": "clear; python ${filename}",
+      "command": "clear; python ${filename} && git commit -am working || git reset --hard",
       "runIn": "terminal"
     }
   ]
