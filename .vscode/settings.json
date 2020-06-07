@@ -1,0 +1,12 @@
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": false,
+  "editor.formatOnSave": false,
+  "runOnSave.commands": [
+    {
+      "match": ".*\\.py",
+      "command": "clear; python ${file} && git commit -am working || git reset --hard",
+      "runIn": "terminal"
+    }
+  ]
+}
