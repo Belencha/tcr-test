@@ -6,3 +6,5 @@
 # - substring
 # - concatenation
 
+def to_rope(string):
+    return string
