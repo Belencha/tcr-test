@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "runOnSave.commands": [
+      {
+        "match": ".*\\.py",
+        "command": "clear; python ${file} && git commit -am working || git reset --hard",
+        "runIn": "terminal"
+      }
+    ]
+  }
+}
